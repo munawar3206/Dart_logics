@@ -1,3 +1,5 @@
+// to print odd or even
+
 import 'dart:io';
 
 void main() {

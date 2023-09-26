@@ -1,3 +1,6 @@
+// IntroSelf from user 
+   
+
 import 'dart:io';
 
 void main() {
@@ -10,5 +13,5 @@ void main() {
   String? more = stdin.readLineSync();
    stdout.write('Since : ');
   int a = int.parse(stdin.readLineSync() ?? '');
-  print('Hi $name, i think your qualification $quali.Are u know $more.SINCE $a');
+  print('Hi $name, i think your qualification $quali.Are u know $more.since $a');
 }
