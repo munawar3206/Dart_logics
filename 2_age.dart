@@ -5,7 +5,7 @@ void main() {
   stdout.write('Name :');
   String? name = stdin.readLineSync();
 
-  stdout.write('Age');
+  stdout.write('Age : ');
   int age = int.parse(stdin.readLineSync()!);
 
   int toreach50 = 50 - age;
