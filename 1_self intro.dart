@@ -11,7 +11,7 @@ void main() {
   String? quali = stdin.readLineSync();
   stdout.write('Current Qualification : ');
   String? more = stdin.readLineSync();
-   stdout.write('Since : ');
+  stdout.write('Since : ');
   int a = int.parse(stdin.readLineSync() ?? '');
-  print('Hi $name, i think your qualification $quali.Are u know $more.since $a');
+  print('Hi $name, i think your qualification is $quali.Are u know $more,since $a.');
 }
