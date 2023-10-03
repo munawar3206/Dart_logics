@@ -8,9 +8,9 @@ void main() {
   int n =int.parse(stdin.readLineSync()!);
   String output = "";
   for (int i = 1; i < n; ++i) {
-    int fibonacci(int n) => n <= 2 ? 1 : fibonacci(n - 2) + fibonacci(n - 1);
+    int a(int n) => n <= 2 ? 1 : a(n - 2) + a(n - 1);
 
-    output += fibonacci(i).toString() + ", ";
+    output += a(i).toString() + ", ";
   }
   print(output);
 }

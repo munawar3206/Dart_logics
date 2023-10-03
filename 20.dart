@@ -4,4 +4,3 @@ void main() {
   num.sort((b, a) => a.compareTo(b));
   print(num);
 }
-// to run in terminal: dart filename.dart

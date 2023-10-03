@@ -19,8 +19,8 @@ void main() {
 }
 
 void data(int square) {
-  String rows = "---";
-  String cols = "|  ";
+  String rows = " ***";
+  String cols = "|   ";
   for (var i = 0; i < square; i++) {
     print(rows * square);
     print(cols * (square + 1));
@@ -28,3 +28,5 @@ void data(int square) {
   print('${rows * square}\n');
 
 }
+
+

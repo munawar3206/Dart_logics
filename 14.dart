@@ -4,4 +4,3 @@ void main() {
     print('$num*$i=${num * i}');
   }
 }
-// to run in terminal: dart filename.dart
