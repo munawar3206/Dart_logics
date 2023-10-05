@@ -12,6 +12,3 @@ void main() {
 
 
 
-
-
-// to run in terminal: dart filename.dart

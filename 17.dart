@@ -1,22 +1,13 @@
 import 'dart:io';
 
-// void main() {
-//   print("Enter the Number");
-//   var x = int.parse(stdin.readLineSync()!);
-//   if (x % 2 == 0) {
-//     print("even number");
-//   } else {
-//     print("odd number");
-//   }
-// }
-// // to run in terminal: dart filename.dart
-
 void main() {
-  print('enter');
+  print("Enter the Number");
   var x = int.parse(stdin.readLineSync()!);
   if (x % 2 == 0) {
-    print("even");
+    print("even number");
   } else {
-    print('odd');
+    print("odd number");
   }
 }
+// to run in terminal: dart filename.dart
+

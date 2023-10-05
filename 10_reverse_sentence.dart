@@ -7,6 +7,6 @@ void main() {
 }
 
 void checkSentence(String? a) {
-  String? n = a!.split(' ').reversed.toList().join(' ');
+  String? n = a!.split(' ').reversed.join('');
   print(n);
 }

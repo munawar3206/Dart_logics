@@ -1,8 +1,13 @@
+import 'dart:io';
 
 import 'dart:math';
 
 void main() {
-  var result = pow(5, 3);
-  print("$result");
+  stdout.write('Enter the number : ');
+  int num = int.parse(stdin.readLineSync()!);
+  stdout.write('Enter the 2nd number : ');
+  int num1 = int.parse(stdin.readLineSync()!);
+  var result = pow(num, num1);
+ 
+  print(result);
 }
-// to run in terminal: dart filename.dart

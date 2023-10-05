@@ -1,12 +1,8 @@
 void main() {
-  List<int> a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89];
+  Set<int> num = {1, 5, 4, 15, 7};
+  Set<int> num1 = {1,5,9,8,7,4,3};
 
-  for (var i in a) {
-    if (i < 5) {
-      print(i);
-    }
-  }
+  final intersectionSet = num1.intersection(num);
+
+  print(intersectionSet);
 }
-
-
-// to run in terminal: dart filename.dart

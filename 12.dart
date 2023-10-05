@@ -1,16 +1,21 @@
 // Write a program that asks the user how many Fibonnaci numbers to generate and then generates them.
-// Take this opportunity to think about how you can use functions.
+
+
 
 import 'dart:io';
 
 void main() {
-  stdout.write('Enter the limits : ');
-  int n =int.parse(stdin.readLineSync()!);
-  String output = "";
-  for (int i = 1; i < n; ++i) {
-    int a(int n) => n <= 2 ? 1 : a(n - 2) + a(n - 1);
-
-    output += a(i).toString() + ", ";
+  stdout.write("Enter the limits : ");
+  int limit = int.parse(stdin.readLineSync()!);
+  for (var i = 0; i < limit; i++) {
+    print(fibonacci(i));
   }
-  print(output);
+}
+
+int fibonacci(int num) {
+  if (num == 0 || num == 1) {
+    return num;
+  } else {
+    return fibonacci(num - 1) + fibonacci(num - 2);
+  }
 }
