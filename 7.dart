@@ -16,3 +16,4 @@ void main() {
   }
       (word == rev.join()) ? print("t") : print("f");
 }
+
