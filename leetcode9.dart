@@ -5,13 +5,13 @@
 // Merge nums1 and nums2 into a single array sorted in non-decreasing order.
 
 void main() {
-  List<int> a = [1, 2, 3, 0, 0, 0];
-  List<int> b = [2, 5, 6];
+  List<int> a = [0];
+  List<int> b = [1];
   List<int> c = a + b;
-  int m = 3;
-  int n = 3;
-  a.remove(m);
-  b.add(n);
+  // int m = 3;
+  // int n = 3;
+  // a.remove(m);
+  // b.add(n);
   // c.removeWhere(((element) => element == 0));
   c.sort();
   c.removeWhere(((element) => element == 0));

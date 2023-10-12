@@ -3,8 +3,8 @@
 //or -1 if needle is not part of haystack.
 
 void main() {
-  String a = 'catascat';
-  String b = 'cat';
+  String a = 'ABCABC';
+  String b = 'ABC';
   print(a.indexOf(b));
 }
 
